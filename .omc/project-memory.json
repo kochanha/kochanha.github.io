@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1781761615829,
+  "projectRoot": "C:\\Users\\EAGLE\\Documents\\GitHub\\kochanha.github.io",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "admin": {
+      "path": "admin",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1781761615791,
+      "keyFiles": [
+        "config.yml",
+        "index.html"
+      ]
+    },
+    "authors": {
+      "path": "authors",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1781761615791,
+      "keyFiles": [
+        "index.html",
+        "index.xml"
+      ]
+    },
+    "categories": {
+      "path": "categories",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1781761615792,
+      "keyFiles": [
+        "index.html",
+        "index.xml"
+      ]
+    },
+    "css": {
+      "path": "css",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1781761615793,
+      "keyFiles": [
+        "academic.css",
+        "journal.css",
+        "main.css",
+        "modern.css",
+        "scholar.css"
+      ]
+    },
+    "cv": {
+      "path": "cv",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1781761615794,
+      "keyFiles": [
+        "audi.gif",
+        "Chanyoung Kim CV.pdf",
+        "feast.png",
+        "handpose.png",
+        "medsign.png"
+      ]
+    },
+    "js": {
+      "path": "js",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1781761615794,
+      "keyFiles": [
+        "academic.min.a8d7005002cb4a052fd6d721e83df9ba.js",
+        "main.js"
+      ]
+    },
+    "papers": {
+      "path": "papers",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1781761615795,
+      "keyFiles": [
+        "index.html",
+        "index.xml"
+      ]
+    },
+    "publication_types": {
+      "path": "publication_types",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1781761615795,
+      "keyFiles": [
+        "index.html",
+        "index.xml"
+      ]
+    },
+    "tags": {
+      "path": "tags",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1781761615795,
+      "keyFiles": [
+        "index.html",
+        "index.xml"
+      ]
+    },
+    "js\\vendor": {
+      "path": "js\\vendor",
+      "purpose": "Third-party code",
+      "fileCount": 0,
+      "lastAccessed": 1781761615797,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "index.html",
+      "accessCount": 7,
+      "lastAccessed": 1781762130781,
+      "type": "file"
+    },
+    {
+      "path": "css\\academic.css",
+      "accessCount": 3,
+      "lastAccessed": 1781761928174,
+      "type": "directory"
+    },
+    {
+      "path": "js\\main.js",
+      "accessCount": 1,
+      "lastAccessed": 1781761899552,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
