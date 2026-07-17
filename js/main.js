@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // ── Active Nav Highlighting ────────────────────────────
-    const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+    const navLinks = document.querySelectorAll('.sidebar-nav a[href^="#"]');
     const sections = document.querySelectorAll('section[id], header[id], .hero[id]');
 
     const highlightNav = () => {
@@ -165,6 +165,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     }, 50);
                 } else {
                     card.style.display = 'none';
+                }
+            });
+
+            // Hide a subheading + its grid when no cards remain visible in it
+            document.querySelectorAll('.pub-grid').forEach(grid => {
+                const hasVisible = [...grid.querySelectorAll('.pub-card')]
+                    .some(card => card.style.display !== 'none');
+                grid.style.display = hasVisible ? '' : 'none';
+                const subhead = grid.previousElementSibling;
+                if (subhead && subhead.classList.contains('pub-subhead')) {
+                    subhead.style.display = hasVisible ? '' : 'none';
                 }
             });
         });

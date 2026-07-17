@@ -765,6 +765,20 @@ img {
     font-size: 0.95rem;
     font-weight: 600;
     margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.org-logo {
+    height: 22px;
+    width: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.org-logo-wide {
+    height: 18px;
 }
 
 .timeline-role {
